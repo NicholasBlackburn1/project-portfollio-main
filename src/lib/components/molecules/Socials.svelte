@@ -17,15 +17,7 @@
 		<TelegramIcon />
 	</a>
 	<a
-		href="#"
-		target="_blank"
-		rel="me noreferrer"
-		title="Say Hi on Mastodon"
-	>
-		<MastodonIcon />
-	</a>
-	<a
-		href="#"
+		href="https://github.com/nicholasblackburn1"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
@@ -33,7 +25,7 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="#"
+		href="https://www.linkedin.com/in/nicholasdavidblackburn"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -41,7 +33,7 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
+		href="mailto:nickbklackburn02@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"

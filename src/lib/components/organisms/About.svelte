@@ -11,8 +11,7 @@
 			<SparklingHighlight color="secondary">projects!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			Exploring AI and machine learning is like a fox uncovering hidden secrets in a magical forest. I thrive on combining creativity with technology, building smart solutions that adapt and learn. From recognizing furry characters to creating interactive applications, every project is an exciting adventure. Join me on this journey where coding meets imagination!
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
