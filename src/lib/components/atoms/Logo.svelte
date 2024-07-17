@@ -5,9 +5,9 @@
 <div class="logo" class:animated>
 	<svg
 		id="logo-text"
-		width="723.84009"
+		width="800.84009"
 		height="116.720268"
-		viewBox="0 0 723.84009 116.720269"
+		viewBox="0 0 800.84009 116.720269"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 	>
@@ -17,8 +17,8 @@
 			transform="translate(-278.77228,-206.83728)"
 			><tspan x="275.57227" y="292.17088" id="tspan1319"
 				><tspan
-					style="font-size:106.667px;font-family:YoungSerif;"
-					id="tspan1317">Site Logo</tspan
+					style="font-size:106px;font-family:YoungSerif;"
+					id="tspan1317">Nicky's portfollio</tspan
 				></tspan
 			></text
 		>
