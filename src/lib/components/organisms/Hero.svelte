@@ -6,16 +6,16 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
+	<h1 class="hello">Nicky's Portfolio</h1>
 	<p class="intro">
-		<span class="left">It supports Markdown,</span>
-		<span class="right">and is really fast.</span>
+		<span class="left">Dive into my projects below,</span>
+		<span class="right"> where technology meets creativity <span class="emoji">🦊</span></span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
+			<Button href="https://github.com/nicholasblackburn1">
 				<GitHubIcon slot="icon" />
-				Source Code
+				My Github
 			</Button>
 		</Sparkles>
 		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">

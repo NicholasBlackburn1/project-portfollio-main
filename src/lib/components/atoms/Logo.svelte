@@ -5,9 +5,9 @@
 <div class="logo" class:animated>
 	<svg
 		id="logo-text"
-		width="800.84009"
+		width="900.84009"
 		height="116.720268"
-		viewBox="0 0 800.84009 116.720269"
+		viewBox="0 0 900.84009 116.720269"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 	>
@@ -18,7 +18,7 @@
 			><tspan x="275.57227" y="292.17088" id="tspan1319"
 				><tspan
 					style="font-size:106px;font-family:YoungSerif;"
-					id="tspan1317">Nicky's portfollio</tspan
+					id="tspan1317">Nicky's Portfolio</tspan
 				></tspan
 			></text
 		>
