@@ -6,10 +6,10 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">Nicky's Portfolio</h1>
+	<h2 class="hello">Paws and Code: My AI & Development Portfolio</h2>
 	<p class="intro">
 		<span class="left">Dive into my projects below,</span>
-		<span class="right"> where technology meets creativity <span class="emoji">🦊</span></span>
+		<span class="right"> where technology meets creativity🦊</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
@@ -53,7 +53,8 @@
 			flex-direction: column;
 
 			.left {
-				text-align: left;
+				text-align: center;
+				
 			}
 			.right {
 				text-align: right;

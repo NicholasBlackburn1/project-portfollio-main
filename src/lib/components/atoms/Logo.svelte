@@ -18,7 +18,7 @@
 			><tspan x="275.57227" y="292.17088" id="tspan1319"
 				><tspan
 					style="font-size:106px;font-family:YoungSerif;"
-					id="tspan1317">Nicky's Portfolio</tspan
+					id="tspan1317">Nicky Blackurn</tspan
 				></tspan
 			></text
 		>
