@@ -8,8 +8,8 @@
 
 <ContentSection
 	id="features"
-	title="Features"
-	description="Here are some of the features of this template"
+	title="Open Paws & Safe Spaces"
+	description="I’m all about sharing code freely and keeping our digital den secure, blending creativity with ethics to ensure everyone feels safe and welcome."
 >
 	<div class="features-container">
 		<div class="three-group-grid">
