@@ -17,6 +17,11 @@ tags:
 </script>
 
 
+<Callout type="warning">
+Cuda is HIGHLY Reconmended for running this project, since its a pretty big model. <a href="https://github.com/NicholasBlackburn1/Fursona-Detector/tree/MAIN-DEV">Click here</a> to download the project
+</Callout>
+
+
 ## Introduction
 
 Hey there, fellow fur enthusiasts! 🦊 Welcome to an exciting journey into the wild world of AI and furries. Today, we're diving into my latest project, Fursona of the Wild, where we're building a deep neural network (DNN) model using OpenCV to recognize furries in the wild (FITW). Whether you're a tech-savvy fur or just curious about the magic behind furry recognition, this project has something for everyone.
@@ -24,9 +29,6 @@ Hey there, fellow fur enthusiasts! 🦊 Welcome to an exciting journey into the 
 
 
 
-<Callout type="warning">
-Cuda is HIGHLY Reconmended for running this project, since its a pretty big model. <a href="https://github.com/NicholasBlackburn1/Fursona-Detector/tree/MAIN-DEV">Click here</a> to download the project
-</Callout>
 
 ## Project Goals
 
