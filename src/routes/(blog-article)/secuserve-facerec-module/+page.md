@@ -1,5 +1,5 @@
 ---
-title: Secuserve Face Reconition Module
+title: "Secuserve: Face Reconition Module"
 slug: secuserve-facerec-module
 coverImage: /images/posts/2020_11_01-10_45_00_AM_1604245500.jpg
 date: 2023-05-10T21:55:15.000Z

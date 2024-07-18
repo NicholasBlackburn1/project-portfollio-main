@@ -1,5 +1,5 @@
 ---
-title: "Fursona of the Wild: A Fursona Species Detector"
+title: "Fursona in the Wild: A Fursona Species Detector"
 slug: furryinthewild
 coverImage: /images/posts/20230629_162009~2.jpg
 date: 2024-07-18T21:55:15.361Z
