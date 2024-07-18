@@ -25,7 +25,7 @@ Hey there, fellow fur enthusiasts! 🦊 Welcome to an exciting journey into the 
 
 
 <Callout type="warning">
-Cuda is HIGHLY Reconmended for running this project, since its a pretty big model
+Cuda is HIGHLY Reconmended for running this project, since its a pretty big model. <a href="https://github.com/NicholasBlackburn1/Fursona-Detector/tree/MAIN-DEV">Click here</a> to download the project
 </Callout>
 
 ## Project Goals
