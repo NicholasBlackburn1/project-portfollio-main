@@ -1,14 +1,13 @@
 ---
-title: "Post Series: SecuServe Security System"
+title: "Post Series: SecuServe Security System (replace pic)"
 slug: facerecsecurity
-coverImage: null
-date: 2024-07-18T18:06:40.793Z
+coverImage: /images/posts/2020_11_01-10_45_00_AM_1604245500.jpg
+date: 2021-03-06T19:06:40.000Z
 excerpt: A Opencv Powered facial Reconition Security System, Written in python
 tags:
   - OpenCV
   - Facial Reconition
   - Big Project
-
 ---
 
 <script>
