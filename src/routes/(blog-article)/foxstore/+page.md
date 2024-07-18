@@ -1,5 +1,5 @@
 ---
-title: "FoxStore: A Vrchat Data Collection Project (replace pic)"
+title: "FoxStore: A Vrchat Data Collection Project"
 slug: foxstore
 coverImage: /images/posts/project-structure.jpg
 date: 2022-07-21T21:55:15.000Z
@@ -17,7 +17,7 @@ tags:
 
 
 <Callout type="warning">
-This Project is Dead because of Vrchats Easy-Anti-Cheat Implimetation <a href="https://github.com/NicholasBlackburn1/Fursona-Detector/tree/MAIN-DEV">Click here</a> to learn more
+This Project is Dead because of Vrchats Easy-Anti-Cheat Implimetation <a href="https://hello.vrchat.com/blog/vrchat-security-update">Click here</a> to learn more
 </Callout>
 
 ## Delving into FoxStore: Data Collection, Challenges, and Future Prospects
