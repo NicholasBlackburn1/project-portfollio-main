@@ -6,10 +6,12 @@ export default [
     description:
       'I wholeheartedly support open-source projects, believing in the power of collaboration and transparency. By contributing to and promoting open-source initiatives, I aim to foster innovation and community-driven development.',
     image: 'images/features/open-source.jpg',
-   
+    tags: [
+        { label: 'Open Source' },
+        { label: 'Community-driven' }
+    ]
   },
 
-  
   {
     name: 'Pawsitive Integration',
     description:
@@ -35,7 +37,7 @@ export default [
     description:
       'I meticulously optimize all my projects, ensuring swift performance and seamless user experiences. By utilizing advanced techniques like automatic fluffification and lazy loading, I enhance efficiency and accessibility across diverse platforms and applications.',
     image: 'images/features/optimized.jpg',
-    tags: [{ label: 'Efficiency' }, { label: 'Performance' }, { label: 'User Experience' }]
+    tags: [{ label: 'Efficiency' }, { label: 'Performance' }]
 
   },
 
