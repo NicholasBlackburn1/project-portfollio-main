@@ -1,7 +1,7 @@
 ---
 title: "Post Series: SecuServe Security System (replace pic)"
 slug: facerecsecurity
-coverImage: /images/posts/2020_11_01-10_45_00_AM_1604245500.jpg
+coverImage: /images/posts/customization.jpg
 date: 2021-03-06T19:06:40.000Z
 excerpt: A Opencv Powered facial Reconition Security System, Written in python
 tags:
@@ -38,7 +38,7 @@ The Face Recognition Module is the core of the SecuServe system. It uses OpenCV 
 
 - **Face Recognition Pipeline:** Manages real-time face detection and recognition, enhancing security with every frame.
 
-For more details, check out the <a href="">`Face Recognition Module`</a>
+For more details, check out the <a href="/secuserve-facerec-module">`Face Recognition Module`</a>
 ### 2. Messaging Backend Module
 The Messaging Backend Module ensures effective communication between different parts of the SecuServe system, using ZeroMQ for reliable message passing.
 
