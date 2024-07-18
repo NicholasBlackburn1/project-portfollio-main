@@ -36,7 +36,7 @@ The primary goals of **Fursona of the Wild** are:
 
 - **Learn and Improve**: Gain hands-on experience in creating both a detector model and a recognition model, enhancing my skills along the way.
 - **Furry Community Contribution**: Provide the furry community with a customized recognition system based on fursuits, making it easier to identify and celebrate our unique characters.
-- **Optimize Performance**: Train, learn, and improve the model's accuracy and speed to match the performance of advanced models like YOLO V4, but tailored specifically for furries.
+- **Optimize Performance**: Train, learn, and improve the model's accuracy and speed to match the performance of advanced models like <a href="">`YOLO V4`</a>, but tailored specifically for furries.
 
 ## Training the Model
 
@@ -44,17 +44,42 @@ All the data used for training this model comes from <a href="http://furtrack.co
 
 ## Data Structure
 
-The dataset is meticulously organized into folders based on species, with each folder `containing around 300 images`. This organization helps in creating precise classifications for each different species of furries.
+The dataset is meticulously organized into folders based on species, with each folder containing around 300 images. This organization helps in creating precise classifications for each different species of furries.
+
+## Data Collection
+
+For effective training, we need a vast collection of different fursonas tagged and sorted by species. Furtrack serves as the perfect database for this purpose, I created a webscraper.
+
+Here's a snippet of the web scraper used to gather images from Furtrack:  
 
 
-## Managing blog posts
 
-I highly recommend the [Front Matter VS Code extension](https://frontmatter.codes/) to manage blog posts. It gives you a nice CMS-like UI to manage the front matter of all blog posts, as well as a preview of their content. It is, of course, optional, and you can manage everything directly in the Markdown files if you prefer.
+```python
+# Function to download multiple images from a URL using Selenium
+def download_multiple_images(driver, url, species):
+    driver.get(url)
+    scrolls_performed = 0
 
-<Image fullBleed src="/images/posts/frontmatter-preview-dashboard.png" alt="Screenshot of the Front Matter VS Code extension, showing the dashboard with all posts" />
+    while scrolls_performed < 100:  # Scroll down the page multiple times
+        driver.execute_script(f"window.scrollBy(0, 400);")
+        scrolls_performed += 1
+        time.sleep(7)  # Allow time for the page to load
 
-<Image fullBleed src="/images/posts/frontmatter-preview-edit.png" alt="Screenshot of the Front Matter VS Code extension, showing the post editing UI" />
+        # Find all image elements
+        img_tags = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'img.index-image-actual'))
+        )
 
-## RSS
+        # Download each image
+        for img_tag in img_tags:
+            link = img_tag.get_attribute('src')
+            image_name = link.split('/')[-1]  # Extract image name from URL
+            directory = f"/home/nicky-blackburn/Documents/Fursona-Detector/webscraper/dataset/{species}"
 
-This template automatically generates a RSS feed of your blog posts. It is generated in the `src/routes/rss.xml/+server.ts` file, and it is available at the `/rss.xml` URL.
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+
+            output_path = os.path.join(directory, image_name)
+            download_image(link, output_path)  # Function to download the image
+
+```
