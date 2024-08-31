@@ -3,6 +3,7 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
+	import Chat from '$lib/icons/chat.svelte';
 </script>
 
 <section id="hero">
@@ -18,9 +19,9 @@
 				My Github
 			</Button>
 		</Sparkles>
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<FeaturesIcon slot="icon" />
-			Components
+		<Button color="primary" href="/aboutme">
+			<Chat slot="icon" />
+			About Me
 		</Button>
 	</div>
 </section>

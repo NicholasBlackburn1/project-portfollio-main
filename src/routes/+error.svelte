@@ -15,7 +15,8 @@
 			<div class="svg-wrapper">
 				<Error />
 			</div>
-			<p>It seems like coffee was spilled all over this page, and now it can't be displayed.</p>
+			
+			<p>Uh-oh, it looks like a mischievous fox knocked over some coffee, and now this page is feeling a bit shy about showing up!</p>
 			<br />
 			<Button href="/">Start over</Button>
 		</div>
