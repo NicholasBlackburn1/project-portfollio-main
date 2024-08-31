@@ -54,7 +54,7 @@ The **Web Interface Module** was designed to be the central hub for user interac
 
 - **View Security Events:** Users could view current captured images and receive notifications about various security events. This feature was designed to keep users informed and engaged with the latest updates.
 
-- **Configuration Settings:** The web intehttps://chatgpt.com/c/c75723f8-6cde-4824-b018-f28a1d51344drface was to provide a comprehensive dashboard for customizing system settings and preferences. Users could adjust their security and data collection settings to suit their needs.
+- **Configuration Settings:** The web inteface was to provide a comprehensive dashboard for customizing system settings and preferences. Users could adjust their security and data collection settings to suit their needs.
 
 - **Dynamic Scrolling Lists:** The interface featured dynamically updating lists where users could scroll through and access information about avatars, profiles, and worlds. This design aimed to make data exploration intuitive and engaging.
 

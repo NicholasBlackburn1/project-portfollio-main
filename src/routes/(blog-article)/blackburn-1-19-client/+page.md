@@ -27,11 +27,46 @@ Welcome to the Blackburn 1.19 Minecraft Client, a fully customized experience de
 
 #### **1. Custom Backgrounds and Loading Screens**
 
-One of the first things you'll notice when launching Blackburn 1.19 is the custom backgrounds and loading screens. These visuals are designed to set the tone for your gameplay right from the start, featuring artwork and themes that resonate with the Blackburn identity.
+One of the first things you'll notice when launching Blackburn 1.19 is the custom backgrounds and loading screens. These visuals are dynamically loaded using JSON configuration files, allowing for a flexible and personalized experience that can be adapted to different moods or themes.
 
-- **Background Integration:** Implemented by replacing the default Minecraft background files with custom textures, these backgrounds load seamlessly across all game states, ensuring a visually cohesive experience.
+**Code Explanation:** The following code is responsible for pulling custom random furry backgrounds and initializing the title screen with different layouts based on user settings:
 
-- **Loading Screen Customization:** The loading screens have been given a similar treatment, with unique imagery that reflects the Blackburn aesthetic, making even the wait times an enjoyable part of your gaming session.
+```java
+// Allows me to pull custom random furry background on my client
+public String setBackgroundScreen() {
+
+   Calendar calendar = Calendar.getInstance();
+   calendar.setTime(new Date());
+
+   Consts.log("Finished registering default main menu here is list entry" + Consts.background.toString());
+
+   // Sets background only when array is populated
+   if (Consts.background.size() == 0) {
+      Consts.log("Array is empty; it's the first run");
+   } else {
+      output = Consts.background.get(1).toString().replaceAll("^\"+|\"+$", "");
+      Consts.log("Set background to" + " " + output);
+   }
+
+   return output;
+}
+
+// Allows me to initialize my classes in the title screen
+public void BlackburnTitleInit() {
+   GuiUtils gui = new GuiUtils();
+
+   // Allows me to load horny main menu
+   if (Consts.ishorny == true) {
+      gui.dumpLayoutJson("/assets/minecraft/blackburn/lewdbackgrounds.json", 3);
+   } else {
+      gui.dumpLayoutJson("/assets/minecraft/blackburn/backgrounds.json", 28);
+   }
+}
+```
+
+- **Dynamic Backgrounds:** The `setBackgroundScreen` method pulls a random background from a predefined array of images stored in a JSON file. This setup allows for a wide variety of backgrounds, ensuring that the client feels fresh and tailored to the user’s preferences every time it’s launched.
+
+- **Title Screen Initialization:** The `BlackburnTitleInit` method uses the `GuiUtils` class to load different layouts for the title screen based on the `ishorny` flag. Depending on this setting, the client either loads a standard or a lewd-themed layout by reading from the appropriate JSON configuration file.
 
 #### **2. Twitch Stream Chat Integration**
 
@@ -98,20 +133,8 @@ The Blackburn 1.19 Minecraft Client is far from finished, with exciting features
 
 - **Forge Integration:** One of the most ambitious goals is to integrate Forge into Blackburn 1.19, allowing for even greater mod compatibility and user customization.
 
-- **Item ESP and Player ESP:** Future updates will include Extra Sensory Perception (ESP) features that highlight items and players in your vicinity. This will be particularly useful for competitive gameplay, providing you with real-time information about your surroundings.
-
-- **Custom Waypoints:** Managing waypoints will become more intuitive with custom waypoints that can be set, edited, and shared directly within the client. This will enhance teamwork and navigation in expansive Minecraft worlds.
-
-- **Forge Integration:** Integrating Forge will open up a plethora of modding possibilities, enabling users to add even more custom features and tailor their Minecraft experience to their liking.
+- **OptiFine Compatibility:** In addition to these enhancements, I’m gradually adapting the client to newer Minecraft versions that support OptiFine. This will allow the Blackburn client to build off of OptiFine’s advanced graphical features, offering smoother performance and more customization options for users who want to push the visual limits of their Minecraft experience.
 
 ### Wrapping Up
 
-The Blackburn 1.19 Minecraft Client is a labor of love, designed to push the boundaries of what a custom client can do. From its rich visual and audio design to its advanced integrations with Twitch and Discord, this client offers a unique and tailored Minecraft experience. The addition of a backend API server for managing specialized builds like the Lewd Build exemplifies the client’s commitment to providing both flexibility and security for its users.
-
-Stay tuned for more updates as I continue to enhance and expand this project! Whether you're a casual player, a streamer, or someone who enjoys a more personalized gaming environment, Blackburn 1.19 has something to offer.
-
-For the latest news and downloads, [check out the project on GitHub](https://github.com/NicholasBlackburn1/Blackburn-1.19.2/tree/devworking).
-
----
-
-Feel free to let me know if there are any other features you'd like to highlight or any changes you'd like to make!
+The Blackburn 1.19 Minecraft Client is a labor of love, designed to push the boundaries of what a custom client can do. From its rich visual and audio design to

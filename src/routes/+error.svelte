@@ -16,7 +16,8 @@
 				<Error />
 			</div>
 			
-			<p>Uh-oh, it looks like a mischievous fox knocked over some coffee, and now this page is feeling a bit shy about showing up!</p>
+			<p>Uh-oh, it looks like a mischievous fox knocked over some coffee, 
+			and now this page is feeling a bit shy about showing up!</p>
 			<br />
 			<Button href="/">Start over</Button>
 		</div>
